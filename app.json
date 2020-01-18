@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "pECO",
+    "slug": "reactnativeepeco",
+    "privacy": "public",
+    "sdkVersion": "36.0.0",
+ 
+    "android": {
+      "package": "com.yourcompany.yourappname"
+    },
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/logo.png",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    }
+  }
+}
